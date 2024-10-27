@@ -1,0 +1,6 @@
+variables:
+  KICAD_VERSION: "ghcr.io/inti-cmnb/kicad8_auto:1.7.0"
+
+include:
+  project: 'FKLab/cicd_dry_templates'
+  file: 'templates/kiCad_pipeline.yml'

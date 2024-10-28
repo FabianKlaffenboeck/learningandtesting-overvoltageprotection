@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM5069MM-2_NOPB")(type "KiCad")(uri "${KIPRJMOD}/library/LM5069MM-2_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "LM74800QDRRRQ1")(type "KiCad")(uri "${KIPRJMOD}/library/LM74800QDRRRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX6495ATT_T")(type "KiCad")(uri "${KIPRJMOD}/library/MAX6495ATT_T.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS54262QPWPRQ1")(type "KiCad")(uri "${KIPRJMOD}/library/TPS54262QPWPRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "IRF7105")(type "KiCad")(uri "${KIPRJMOD}/library/IRF7105.kicad_sym")(options "")(descr ""))
+)

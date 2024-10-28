@@ -1,7 +1,9 @@
 (fp_lib_table
   (version 7)
+  (lib (name "IRF7105")(type "KiCad")(uri "${KIPRJMOD}/footprints/IRF7105")(options "")(descr ""))
   (lib (name "LM5069MM-2_NOPB")(type "KiCad")(uri "${KIPRJMOD}/footprints/LM5069MM-2_NOPB")(options "")(descr ""))
   (lib (name "LM74800QDRRRQ1")(type "KiCad")(uri "${KIPRJMOD}/footprints/LM74800QDRRRQ1")(options "")(descr ""))
-  (lib (name "MAX5495ETE")(type "KiCad")(uri "${KIPRJMOD}/footprints/MAX5495ETE")(options "")(descr ""))
+  (lib (name "MAX6495ATT_T")(type "KiCad")(uri "${KIPRJMOD}/footprints/MAX6495ATT_T")(options "")(descr ""))
+  (lib (name "SMBJ30A-13-F")(type "KiCad")(uri "${KIPRJMOD}/footprints/SMBJ30A-13-F")(options "")(descr ""))
   (lib (name "TPS54262QPWPRQ1")(type "KiCad")(uri "${KIPRJMOD}/footprints/TPS54262QPWPRQ1")(options "")(descr ""))
 )

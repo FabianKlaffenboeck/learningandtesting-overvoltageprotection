@@ -5,4 +5,5 @@
   (lib (name "MAX6495ATT_T")(type "KiCad")(uri "${KIPRJMOD}/library/MAX6495ATT_T.kicad_sym")(options "")(descr ""))
   (lib (name "TPS54262QPWPRQ1")(type "KiCad")(uri "${KIPRJMOD}/library/TPS54262QPWPRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "IRF7105")(type "KiCad")(uri "${KIPRJMOD}/library/IRF7105.kicad_sym")(options "")(descr ""))
+  (lib (name "SMBJ30A-13-F")(type "KiCad")(uri "${KIPRJMOD}/library/SMBJ30A-13-F.kicad_sym")(options "")(descr ""))
 )

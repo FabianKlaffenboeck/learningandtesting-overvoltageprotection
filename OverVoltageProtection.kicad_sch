@@ -5,169 +5,6 @@
 	(uuid "3ab01156-4af1-4058-a55c-fa6294991d75")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:Q_NMOS_Depletion_GDS"
 			(pin_names
 				(offset 0) hide)
@@ -1009,151 +846,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Jumper:Jumper_2_Bridged"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_1"
-				(arc
-					(start 1.524 0.254)
-					(mid 0 0.762)
-					(end -1.524 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2451,6 +2143,107 @@
 				)
 			)
 		)
+		(symbol "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_M3_3.2mm_Pad"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Mounting Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_M3_3.2mm_Pad_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.7961)
+					(stroke
+						(width 2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_M3_3.2mm_Pad_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET:SQJQ466E"
 			(pin_names
 				(offset 0) hide)
@@ -3276,6 +3069,12 @@
 		(uuid "079d2faf-9661-42d7-8b44-46a808a1830a")
 	)
 	(junction
+		(at 167.64 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "139283a8-c460-4c9b-a1e5-d551a8a2b7e2")
+	)
+	(junction
 		(at 91.44 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3408,22 +3207,16 @@
 		(uuid "d340bc9d-dfdf-4e00-8277-ddda1b3d3519")
 	)
 	(junction
-		(at 158.75 151.13)
+		(at 134.62 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d967d063-ca82-4e05-89e4-405d4ad1febf")
+		(uuid "d54cab37-165b-4767-950a-43e21d472c41")
 	)
 	(junction
 		(at 111.76 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e302eaac-8cff-439c-8b7a-16f6629c69ef")
-	)
-	(junction
-		(at 134.62 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e55a93a0-1f16-4247-bb5f-70eaf85bd1e8")
 	)
 	(junction
 		(at 204.47 106.68)
@@ -3519,7 +3312,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 33.02) (xy 209.55 33.02)
+			(xy 72.39 95.25) (xy 72.39 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1754d9e5-4662-4829-bbcf-e7ada791adb2")
+	)
+	(wire
+		(pts
+			(xy 209.55 33.02) (xy 245.11 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3556,6 +3359,16 @@
 			(type default)
 		)
 		(uuid "1e26f399-c8a2-4761-8e11-92d535d359b5")
+	)
+	(wire
+		(pts
+			(xy 72.39 78.74) (xy 72.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e28e47d-9336-4594-8ea9-e2673cc83001")
 	)
 	(wire
 		(pts
@@ -3609,13 +3422,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 105.41) (xy 134.62 106.68)
+			(xy 133.35 106.68) (xy 134.62 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "348246c7-c882-40a4-be8b-144576b7ffb8")
+		(uuid "3505cd08-f8e1-4459-b560-785e3ea7db3b")
 	)
 	(wire
 		(pts
@@ -3626,6 +3439,16 @@
 			(type default)
 		)
 		(uuid "3ce59a2c-710f-4f0f-93b3-33e4006bc2e1")
+	)
+	(wire
+		(pts
+			(xy 134.62 105.41) (xy 134.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5ac8ee-76e9-4420-b498-0548a600db70")
 	)
 	(wire
 		(pts
@@ -3696,16 +3519,6 @@
 			(type default)
 		)
 		(uuid "554b92bc-5758-4f6a-9b65-1d817c3a351f")
-	)
-	(wire
-		(pts
-			(xy 134.62 106.68) (xy 133.35 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b69e2b-b6e8-4dd1-b86e-69d62f74efcf")
 	)
 	(wire
 		(pts
@@ -3809,6 +3622,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 106.68) (xy 158.75 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8278560a-66e3-44af-b8bb-089e68350bb6")
+	)
+	(wire
+		(pts
 			(xy 204.47 106.68) (xy 209.55 106.68)
 		)
 		(stroke
@@ -3909,6 +3732,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 95.25) (xy 34.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07953a9-f286-4f53-8905-d6a189df7af1")
+	)
+	(wire
+		(pts
 			(xy 248.92 66.04) (xy 254 66.04)
 		)
 		(stroke
@@ -3979,16 +3812,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 106.68) (xy 158.75 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b72dff71-ad24-4e1d-80bd-d07de4485d7c")
-	)
-	(wire
-		(pts
 			(xy 179.07 106.68) (xy 191.77 106.68)
 		)
 		(stroke
@@ -4026,6 +3849,16 @@
 			(type default)
 		)
 		(uuid "c6fdb35f-673d-4b1a-9118-d7a5737e9fee")
+	)
+	(wire
+		(pts
+			(xy 34.29 78.74) (xy 34.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2243d78-2630-4778-99ca-3390a5aaba80")
 	)
 	(wire
 		(pts
@@ -4079,6 +3912,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 151.13) (xy 173.99 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11c2e94-1286-4c79-9b52-acb474f26331")
+	)
+	(wire
+		(pts
 			(xy 64.77 50.8) (xy 77.47 50.8)
 		)
 		(stroke
@@ -4116,6 +3959,16 @@
 			(type default)
 		)
 		(uuid "eead2689-224d-4686-9076-798ecb06ea94")
+	)
+	(wire
+		(pts
+			(xy 73.66 78.74) (xy 72.39 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ee1b48-dbbc-49fc-aec8-32e1cedb9db1")
 	)
 	(label "VS"
 		(at 245.11 38.1 0)
@@ -4161,6 +4014,17 @@
 		)
 		(uuid "1baa4e0d-489a-414f-9056-daf36c049fff")
 	)
+	(label "V_INTER"
+		(at 176.53 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "202ce448-ae87-44e2-8a96-262bfba808ca")
+	)
 	(label "OUT"
 		(at 245.11 45.72 0)
 		(fields_autoplaced yes)
@@ -4195,17 +4059,6 @@
 		(uuid "441856eb-d809-49ec-b97a-32bea7123325")
 	)
 	(label "VOUT"
-		(at 176.53 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "47e95ae7-a956-4e8c-92fd-9590a8d9b212")
-	)
-	(label "VOUT"
 		(at 171.45 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4226,17 +4079,6 @@
 			(justify left bottom)
 		)
 		(uuid "63937760-beff-451c-b28c-87781fdb2f69")
-	)
-	(label "VOUT"
-		(at 74.93 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7158dbda-b5a9-40ab-b205-738107a8955d")
 	)
 	(label "SENSE"
 		(at 134.62 105.41 0)
@@ -4337,6 +4179,17 @@
 		)
 		(uuid "c8ee4687-4e19-482b-8bb4-e4ed52214da5")
 	)
+	(label "V_INTER"
+		(at 74.93 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d17de708-f4d4-49d1-bdf7-8d6882a1fe17")
+	)
 	(label "VS"
 		(at 255.27 55.88 0)
 		(fields_autoplaced yes)
@@ -4392,6 +4245,28 @@
 		)
 		(uuid "f88c524b-bb9e-4807-bf6a-d7edbd8d8942")
 	)
+	(global_label "VBat"
+		(shape input)
+		(at 34.29 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0541d85f-7ebf-4e36-a89b-949b9b2cf1ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.0715 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_FILTERED"
 		(shape input)
 		(at 209.55 106.68 0)
@@ -4433,6 +4308,95 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "V_FILTERED"
+		(shape input)
+		(at 73.66 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e182037b-e254-421e-9a0f-568142f9507d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.2285 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
+		(at 34.29 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07e2524e-ee5d-4382-afa9-f632b559ba11")
+		(property "Reference" "H1"
+			(at 38.1 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3_3.2mm_Pad"
+			(at 38.1 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+			(at 34.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
+			(at 34.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44e65c87-6a6c-4623-8e3f-fb7eb80b5c55")
+		)
+		(instances
+			(project "OverVoltageProtection"
+				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
+					(reference "H1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4679,6 +4643,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 173.99 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1470ff34-bc3e-457f-9e31-d9d679d7abab")
+		(property "Reference" "#PWR013"
+			(at 173.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 173.99 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 173.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbb00f82-8fdc-45fd-ac5e-1c01db73da7e")
+		)
+		(instances
+			(project "OverVoltageProtection"
+				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 105.41 146.05 0)
 		(unit 1)
@@ -4851,72 +4881,6 @@
 			(project "OverVoltageProtection"
 				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 158.75 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2aab2adb-7a82-43bb-8868-28a71182c42a")
-		(property "Reference" "#PWR013"
-			(at 158.75 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 158.75 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 158.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c69a88c6-47c2-4812-910f-ab3614c7889a")
-		)
-		(instances
-			(project ""
-				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5351,6 +5315,72 @@
 			(project "OverVoltageProtection"
 				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b224389-c574-4bdb-8374-42bd2dfea73f")
+		(property "Reference" "#PWR020"
+			(at 72.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a2479a0-410d-4140-939a-46637a10b37c")
+		)
+		(instances
+			(project "OverVoltageProtection"
+				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5953,6 +5983,73 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
+		(at 72.39 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e2a8f7e-d646-4927-aed8-7417a3ea7e3e")
+		(property "Reference" "H3"
+			(at 76.2 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3_3.2mm_Pad"
+			(at 76.2 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
+			(at 72.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62c208fa-0b84-43da-ad87-4dc3c11d15e5")
+		)
+		(instances
+			(project "OverVoltageProtection"
+				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND2")
 		(at 115.57 156.21 0)
 		(unit 1)
@@ -6335,8 +6432,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:SQJQ466E")
-		(at 149.86 35.56 270)
-		(mirror x)
+		(at 149.86 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6360,7 +6456,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:LFPAK88"
-			(at 146.05 30.48 0)
+			(at 153.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6466,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/75138/sqjq466e.pdf"
-			(at 143.51 30.48 0)
+			(at 156.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,74 +6885,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 240.03 33.02 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86b20091-23a2-4880-9045-db76e3f3fa02")
-		(property "Reference" "JP1"
-			(at 240.03 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 240.03 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 240.03 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 240.03 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4700c01-5109-4215-8f20-70ac917a3bcf")
-		)
-		(pin "2"
-			(uuid "13935b04-e019-47d5-9f45-8640e165f012")
-		)
-		(instances
-			(project ""
-				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 172.72 38.1 0)
 		(unit 1)
@@ -6940,6 +6968,73 @@
 			(project "OverVoltageProtection"
 				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
+		(at 72.39 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "998ed9a8-4cd4-45ff-8820-9ce8332afb73")
+		(property "Reference" "H4"
+			(at 76.2 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3_3.2mm_Pad"
+			(at 76.2 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+			(at 72.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
+			(at 72.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0e6a17c-a669-4ed9-abea-a1b3123eb646")
+		)
+		(instances
+			(project "OverVoltageProtection"
+				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -7035,92 +7130,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 171.45 151.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d2fb4c8-734e-44b1-a732-5a5b81e0dcc6")
-		(property "Reference" "D5"
-			(at 171.45 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV20WS-TP"
-			(at 171.45 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 171.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 171.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 171.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f2b39463-9581-4db1-9180-7e32e492647a")
-		)
-		(pin "1"
-			(uuid "9afe87cb-e730-420b-9708-85d86fc80dfc")
-		)
-		(instances
-			(project ""
-				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDS")
 		(at 80.01 139.7 0)
 		(unit 1)
@@ -7181,6 +7190,73 @@
 			(project "OverVoltageProtection"
 				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
+		(at 34.29 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b46fb28d-2577-45f6-9d11-de81467ef866")
+		(property "Reference" "H2"
+			(at 38.1 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3_3.2mm_Pad"
+			(at 38.1 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+			(at 34.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
+			(at 34.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfde87e2-64ad-4cab-b6d3-41493b70dd7c")
+		)
+		(instances
+			(project ""
+				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7406,6 +7482,72 @@
 			(project "OverVoltageProtection"
 				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 34.29 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb1a73db-0952-4dd1-bfee-7e2fdb8c812c")
+		(property "Reference" "#PWR021"
+			(at 34.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 34.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 34.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0f7ebe2-504c-48b1-a97a-ff1f947e159f")
+		)
+		(instances
+			(project "OverVoltageProtection"
+				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8676,7 +8818,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDS")
-		(at 175.26 151.13 0)
+		(at 167.64 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8685,7 +8827,7 @@
 		(fields_autoplaced yes)
 		(uuid "f89a71f7-7b7f-4beb-9e9a-ea700b9fb193")
 		(property "Reference" "#PWR08"
-			(at 175.26 157.48 0)
+			(at 167.64 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8694,7 +8836,7 @@
 			)
 		)
 		(property "Value" "GNDS"
-			(at 175.26 156.21 0)
+			(at 167.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8702,7 +8844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 151.13 0)
+			(at 167.64 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8711,7 +8853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 151.13 0)
+			(at 167.64 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +8862,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 175.26 151.13 0)
+			(at 167.64 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

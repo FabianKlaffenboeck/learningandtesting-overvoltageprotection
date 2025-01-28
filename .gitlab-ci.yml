@@ -1,6 +1,6 @@
 variables:
   KICAD_VERSION: "ghcr.io/inti-cmnb/kicad8_auto:1.7.0"
-  PCB_FILE: "OverVoltageProtection.kicad_pcb"
+  BORD_NAME: "OverVoltageProtection.kicad_pcb"
 
 include:
   project: 'FKLab/cicd_dry_templates'

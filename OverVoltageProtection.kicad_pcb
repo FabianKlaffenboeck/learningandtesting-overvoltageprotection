@@ -138,109 +138,6 @@
 	(net 17 "unconnected-(U1-RTN-Pad13)")
 	(net 18 "unconnected-(U3-PGD-Pad8)")
 	(net 19 "/V_INTER")
-	(footprint "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
-		(layer "F.Cu")
-		(uuid "05d3a481-fd89-4324-8c0d-a35b4226cde2")
-		(at 47 73)
-		(property "Reference" "H1"
-			(at 0 -4.064 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "70b4c2d1-1ad1-41f8-8d71-8a1b6b082413")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_M3_3.2mm_Pad"
-			(at 0 3.58 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "2ae7a974-8080-405a-a782-8bdcdb1d117e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b3052f2-fcd7-4638-910b-6a7c393c283a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d1c3bbdb-2daf-4235-a0f1-6c330d0dc6af")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8e7da3d4-79e0-4ad2-b9ed-d7c4b143fc8e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/07e2524e-ee5d-4382-afa9-f632b559ba11")
-		(sheetname "Root")
-		(sheetfile "OverVoltageProtection.kicad_sch")
-		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 3.048 -1.016)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "27d7ed8e-eb7f-4f8e-928e-38c5262f9d09")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 5.08 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "2a60804a-0c7e-40dd-b88a-9b39dc0f0af1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 6 6)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pintype "passive")
-			(uuid "b1d5d82b-cdbe-4106-8f99-3521bdd75e54")
-		)
-	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "16c1d10c-dc98-495e-a79e-37a80d3f2157")
@@ -481,109 +378,6 @@
 			)
 		)
 	)
-	(footprint "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
-		(layer "F.Cu")
-		(uuid "1a893bb1-6b71-4f58-89c6-2ba826628d7c")
-		(at 47 40)
-		(property "Reference" "H2"
-			(at 0 -4.064 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "73d2387c-b13c-4e40-aa51-9b391e1c3e25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_M3_3.2mm_Pad"
-			(at 0 3.58 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "dbed2cd5-5223-4c98-a5ac-132e02afad15")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6a1998d3-1198-4d39-ac6d-14a7d930b524")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a6882e8-ecf4-4d2e-8692-977982a77ecf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8c845cbb-8583-4d49-b42c-d20ae9154ade")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/b46fb28d-2577-45f6-9d11-de81467ef866")
-		(sheetname "Root")
-		(sheetfile "OverVoltageProtection.kicad_sch")
-		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 3.048 -1.016)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "ecd540cf-f6d0-4d15-a1f3-2a415cd89723")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 5.08 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "052f6572-f819-486c-ac97-36e7e971311a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 6 6)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "VBat")
-			(pintype "passive")
-			(uuid "a5e7e18e-1540-4eaf-8ad9-c68417176f95")
-		)
-	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "1aa60ecd-e9e0-467c-9149-4b6e88f5a98b")
@@ -822,6 +616,123 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(layer "F.Cu")
+		(uuid "202b32ae-1735-4392-8173-293405cad771")
+		(at 105 40)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H7"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "efdce91b-7a63-4523-8e8e-6d86bc72a463")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "7e46cc88-4111-4cca-ac7a-9bd86f44572a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28944a69-6c66-4ae4-bff4-5d5da6ef557f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e11251e6-c3d9-4de2-8a1b-ac091dead04e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5482fe9-3901-46d8-ac4e-9197f3523be6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/04d9dfd1-c772-48bc-9f9a-6d435668ff26")
+		(sheetname "Root")
+		(sheetfile "OverVoltageProtection.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "8057cebc-910b-48a2-8a67-9ba5ffde4eab")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "5f05e5ab-be1b-498e-b2f7-df61a11a2bae")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ab642750-bb4f-4686-967f-b6d8d8eb6094")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "V_FILTERED")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "4ecc7a14-e804-4482-8905-819eb93d33a5")
 		)
 	)
 	(footprint "Diode_SMD:D_SMC"
@@ -2859,6 +2770,123 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(layer "F.Cu")
+		(uuid "4fb1329a-dd15-46dd-b072-212b5a44c67e")
+		(at 47 40)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H6"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "82ef1063-3099-4d19-b919-d230845b3ec2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "2b720d77-1446-457e-b728-4e54f6f38963")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbfad7c0-761a-4586-afae-a42d60876471")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f350815b-5907-42fe-91f2-fc8aa9c965cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d526e3f4-7ace-4082-a514-c777d4939ef4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/ee32149f-27ec-4a9e-ad72-2c21023de99c")
+		(sheetname "Root")
+		(sheetfile "OverVoltageProtection.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "48f99775-52af-4828-a5de-ae978b936af3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "cbf92313-17a8-4310-a461-589318c018fa")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "418f1445-3467-4d5b-89d1-d1ae922ffdb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "VBat")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "f08c34bd-d7e3-40f0-9990-d30514617350")
+		)
+	)
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "51fa7fb8-4058-4e58-8d52-48029c9d6c79")
@@ -3724,6 +3752,123 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(layer "F.Cu")
+		(uuid "607979d6-db6c-4eb6-9980-7335730ea186")
+		(at 47 73)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H1"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "76133792-56d5-46bb-a8da-8e0816d875d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "11ccf414-b77f-47fc-9502-6d690ad469bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0099394a-0524-4e0c-a089-6e82b010580a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f97ab12-1850-4ba2-b495-c4e3d9725396")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74bd4f1-fff7-47ff-9350-0e89339dc486")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/7e0eca27-4ddc-485d-b4e1-b3f0c21f8b9f")
+		(sheetname "Root")
+		(sheetfile "OverVoltageProtection.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "dabb7a1d-0171-4913-b786-5fe9cdeb0d18")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "2f7c3c63-67bb-47a9-83f6-5c84c76166c9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4ef9ce63-de60-4055-9090-e5197fcedb04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "15e2ec73-fcc2-4448-955e-c9b0c592c7d7")
+		)
+	)
 	(footprint "Diode_SMD:D_SMC"
 		(layer "F.Cu")
 		(uuid "676665ef-fc07-43ed-8aec-a062b2092004")
@@ -4007,109 +4152,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
-		(layer "F.Cu")
-		(uuid "701734bd-773c-4d66-987f-e676f8223b54")
-		(at 105 40)
-		(property "Reference" "H3"
-			(at 0 -4.064 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "48afc6d9-3e43-4263-b029-a65bcb8c991e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_M3_3.2mm_Pad"
-			(at 0 3.58 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "b6d890f6-c7e1-4930-8496-595220f33ff2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fdf80e72-53f8-4dc0-adb0-e33baa786daa")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fd20be9e-bd43-4d23-89f2-b1273cd7dea3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "846439d6-5b45-4a74-93b5-bd96fce2ce5f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/6e2a8f7e-d646-4927-aed8-7417a3ea7e3e")
-		(sheetname "Root")
-		(sheetfile "OverVoltageProtection.kicad_sch")
-		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 3.048 -1.016)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "b0e8e4d9-b500-46f7-acda-2e375aa8688d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 5.08 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "8311f561-b15e-49d1-b391-ebfebef51922")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 6 6)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "V_FILTERED")
-			(pintype "passive")
-			(uuid "23ae3544-71d7-4572-b9a4-4e7cdde42f6a")
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
@@ -5772,109 +5814,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
-		(layer "F.Cu")
-		(uuid "8c293f7e-dcd8-4635-9622-3d6233aededd")
-		(at 105 73)
-		(property "Reference" "H4"
-			(at 0 -4.064 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4368386b-f05e-4527-9b0b-bd026b0eb720")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_M3_3.2mm_Pad"
-			(at 0 3.58 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "af4ecc6a-9d20-41dc-8b54-76e2dfde6bf5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "193abaa7-5c9c-457b-9cc9-3a6c45dc0925")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3334091f-851d-489d-b15c-d12ca9b44cae")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b267729-ff09-4082-87e3-0d3d2bf3968f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/998ed9a8-4cd4-45ff-8820-9ce8332afb73")
-		(sheetname "Root")
-		(sheetfile "OverVoltageProtection.kicad_sch")
-		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 3.048 -1.016)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "fdb46ac5-86b3-43ae-a2af-1b164df8e7f8")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 5.08 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "ebc8abca-dd73-41d8-89b8-d85291eddef5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 6 6)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pintype "passive")
-			(uuid "60fa649d-d607-44c7-a13f-dc91d434a941")
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:LFPAK88"
@@ -9883,6 +9822,123 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(layer "F.Cu")
+		(uuid "e01fd638-187f-4fc7-89ed-90cf2950d84f")
+		(at 105 73)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H8"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "4934ef5a-adef-4c23-91f9-6998c56cca24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "d6c710c4-99cc-456f-8752-e685a43e649b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d61cfa79-e2cf-4786-8c31-dbcef7947329")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2f4a976-a45d-4a52-a478-54b85770e4a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09f6d260-4323-47fd-93f5-b9c04bb6b229")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/ad7a0d03-0cf6-4355-9829-424930f13739")
+		(sheetname "Root")
+		(sheetfile "OverVoltageProtection.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2393ff67-6a7c-4b0c-98f5-d4256fc0a448")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "8f6db48e-3507-4a83-ae81-1e5cffcfce69")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d3a6d25e-c1cf-42df-843b-21819b657ebc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "16667a69-dc6b-4b80-8748-f8709633a5f1")
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:LFPAK88"

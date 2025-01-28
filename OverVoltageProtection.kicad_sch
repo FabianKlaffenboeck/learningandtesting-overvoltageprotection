@@ -1650,6 +1650,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_Elektuur:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2134,107 +2236,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_M3_3.2mm_Pad"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Mounting Hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_M3_3.2mm_Pad_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.7961)
-					(stroke
-						(width 2)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_M3_3.2mm_Pad_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4334,17 +4335,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
-		(at 34.29 88.9 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 72.39 74.93 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "07e2524e-ee5d-4382-afa9-f632b559ba11")
-		(property "Reference" "H1"
-			(at 38.1 87.6299 0)
+		(uuid "04d9dfd1-c772-48bc-9f9a-6d435668ff26")
+		(property "Reference" "H7"
+			(at 74.93 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,8 +4353,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_M3_3.2mm_Pad"
-			(at 38.1 90.1699 0)
+		(property "Value" "MountingHole_Pad"
+			(at 74.93 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,8 +4362,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
-			(at 34.29 92.71 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 72.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,8 +4371,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 34.29 88.9 0)
+		(property "Datasheet" "~"
+			(at 72.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,8 +4380,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
-			(at 34.29 88.9 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 72.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,12 +4390,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "44e65c87-6a6c-4623-8e3f-fb7eb80b5c55")
+			(uuid "7395a0cc-5ed7-473d-8fb3-a7bc4d0c0c93")
 		)
 		(instances
 			(project "OverVoltageProtection"
 				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
-					(reference "H1")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -5983,73 +5984,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
-		(at 72.39 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e2a8f7e-d646-4927-aed8-7417a3ea7e3e")
-		(property "Reference" "H3"
-			(at 76.2 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_M3_3.2mm_Pad"
-			(at 76.2 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
-			(at 72.39 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
-			(at 72.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62c208fa-0b84-43da-ad87-4dc3c11d15e5")
-		)
-		(instances
-			(project "OverVoltageProtection"
-				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND2")
 		(at 115.57 156.21 0)
 		(unit 1)
@@ -6425,6 +6359,73 @@
 			(project "OverVoltageProtection"
 				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 34.29 91.44 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e0eca27-4ddc-485d-b4e1-b3f0c21f8b9f")
+		(property "Reference" "H1"
+			(at 36.83 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 36.83 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 34.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f6db446-37b9-48a6-9929-7f6e32fd27b9")
+		)
+		(instances
+			(project "OverVoltageProtection"
+				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6974,73 +6975,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
-		(at 72.39 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "998ed9a8-4cd4-45ff-8820-9ce8332afb73")
-		(property "Reference" "H4"
-			(at 76.2 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_M3_3.2mm_Pad"
-			(at 76.2 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
-			(at 72.39 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
-			(at 72.39 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0e6a17c-a669-4ed9-abea-a1b3123eb646")
-		)
-		(instances
-			(project "OverVoltageProtection"
-				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 191.77 111.76 0)
 		(unit 1)
@@ -7196,17 +7130,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
-		(at 34.29 72.39 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 72.39 91.44 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b46fb28d-2577-45f6-9d11-de81467ef866")
-		(property "Reference" "H2"
-			(at 38.1 71.1199 0)
+		(uuid "ad7a0d03-0cf6-4355-9829-424930f13739")
+		(property "Reference" "H8"
+			(at 74.93 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7214,8 +7148,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_M3_3.2mm_Pad"
-			(at 38.1 73.6599 0)
+		(property "Value" "MountingHole_Pad"
+			(at 74.93 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,8 +7157,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
-			(at 34.29 76.2 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 72.39 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,8 +7166,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 34.29 72.39 0)
+		(property "Datasheet" "~"
+			(at 72.39 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7241,8 +7175,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
-			(at 34.29 72.39 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 72.39 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,12 +7185,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dfde87e2-64ad-4cab-b6d3-41493b70dd7c")
+			(uuid "1433f0a4-f9f9-4819-8422-25ee5ad5b82f")
 		)
 		(instances
-			(project ""
+			(project "OverVoltageProtection"
 				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
-					(reference "H2")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -8563,6 +8497,73 @@
 			(project "OverVoltageProtection"
 				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 34.29 74.93 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee32149f-27ec-4a9e-ad72-2c21023de99c")
+		(property "Reference" "H6"
+			(at 36.83 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 36.83 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 34.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea784acb-2497-44b2-83d9-93d218e61aff")
+		)
+		(instances
+			(project "OverVoltageProtection"
+				(path "/3ab01156-4af1-4058-a55c-fa6294991d75"
+					(reference "H6")
 					(unit 1)
 				)
 			)

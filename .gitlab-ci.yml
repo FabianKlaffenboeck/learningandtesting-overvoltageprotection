@@ -1,5 +1,5 @@
 variables:
-  KICAD_VERSION: "ghcr.io/inti-cmnb/kicad8_auto:1.7.0"
+  KICAD_VERSION: "ghcr.io/inti-cmnb/kicad9_auto:1.8.3"
   BORD_NAME: "OverVoltageProtection.kicad_pcb"
 
 include:

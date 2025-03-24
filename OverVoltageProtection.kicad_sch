@@ -907,9 +907,9 @@
 				(justify left)
 			)
 		)
-		(pin "OUT" output
+		(pin "SYSOUT" output
 			(at 86.36 72.39 0)
-			(uuid "d27b2a60-dd48-4759-98f0-ae731ae04229")
+			(uuid "b6e225dd-9528-4dca-810f-4da961985969")
 			(effects
 				(font
 					(size 1.27 1.27)

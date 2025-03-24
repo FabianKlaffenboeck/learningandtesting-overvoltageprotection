@@ -394,173 +394,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4002"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4002"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4002_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4002_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N6263"
 			(pin_numbers
 				(hide yes)
@@ -672,6 +505,173 @@
 				)
 			)
 			(symbol "1N6263_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:MRA4003T3G"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MRA4003T3G"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "300V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MRA4003T3G_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MRA4003T3G_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2494,6 +2494,12 @@
 		(uuid "1d754ea7-5cd6-4154-b018-2d8940198126")
 	)
 	(junction
+		(at 99.06 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ff9f350-c5be-458d-ab82-f68a7713458f")
+	)
+	(junction
 		(at 85.09 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2554,6 +2560,12 @@
 		(uuid "dc782bb9-45d1-4f9f-abf3-df377bfe1d51")
 	)
 	(junction
+		(at 90.17 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de68745c-c505-4772-807a-5577fecd3e36")
+	)
+	(junction
 		(at 85.09 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2577,6 +2589,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 90.17) (xy 99.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be153e0-c4fb-4443-9af3-5db64713fd45")
+	)
+	(wire
+		(pts
 			(xy 132.08 82.55) (xy 132.08 81.28)
 		)
 		(stroke
@@ -2587,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 88.9) (xy 104.14 88.9)
+			(xy 96.52 90.17) (xy 99.06 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2624,6 +2646,26 @@
 			(type default)
 		)
 		(uuid "419cd8e8-289d-4585-b1cf-4bca775bef1e")
+	)
+	(wire
+		(pts
+			(xy 90.17 88.9) (xy 99.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429b2e10-aaf6-4756-901e-8ebb05ff0ae6")
+	)
+	(wire
+		(pts
+			(xy 90.17 88.9) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f1d7c3-ee7d-41b2-8294-1620d95a759d")
 	)
 	(wire
 		(pts
@@ -2727,6 +2769,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 88.9) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f93f92-4df4-40a7-9331-ed540b55d30b")
+	)
+	(wire
+		(pts
 			(xy 175.26 118.11) (xy 179.07 118.11)
 		)
 		(stroke
@@ -2754,6 +2806,16 @@
 			(type default)
 		)
 		(uuid "867fc053-2727-4a45-b2d5-a23b273f3f29")
+	)
+	(wire
+		(pts
+			(xy 90.17 90.17) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880a3fa8-562d-45bd-9522-c268d3338038")
 	)
 	(wire
 		(pts
@@ -2957,7 +3019,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 88.9) (xy 85.09 88.9)
+			(xy 91.44 90.17) (xy 90.17 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3176,7 +3238,7 @@
 		)
 		(uuid "55f19019-6208-4a99-b3f7-c5895e485640")
 	)
-	(hierarchical_label "OUT"
+	(hierarchical_label "SYSOUT"
 		(shape output)
 		(at 220.98 62.23 0)
 		(effects
@@ -3523,7 +3585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127.635 77.47 0)
 			(effects
 				(font
@@ -4096,94 +4158,6 @@
 			(project "OverVoltageProtection"
 				(path "/3ab01156-4af1-4058-a55c-fa6294991d75/6c85ee69-59dc-40d3-b5ed-3a4bea6d00bc"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4002")
-		(at 146.05 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59c073c4-45af-48de-88dd-ca19405861af")
-		(property "Reference" "D8"
-			(at 148.59 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4002"
-			(at 148.59 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 141.605 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 146.05 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 1A General Purpose Rectifier Diode, DO-41"
-			(at 146.05 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 146.05 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7bd397a0-79ec-48f5-aa2d-054091fdb2d0")
-		)
-		(pin "1"
-			(uuid "e8d531d1-1c21-492b-a8af-18768722411d")
-		)
-		(instances
-			(project "OverVoltageProtection"
-				(path "/3ab01156-4af1-4058-a55c-fa6294991d75/6c85ee69-59dc-40d3-b5ed-3a4bea6d00bc"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5295,7 +5269,8 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 93.98 88.9 0)
+		(at 93.98 90.17 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5303,7 +5278,7 @@
 		(dnp no)
 		(uuid "dedfc7a4-013c-4c36-b9be-15a176407e2c")
 		(property "Reference" "NT1"
-			(at 93.98 90.678 0)
+			(at 93.98 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5311,7 +5286,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 93.98 93.218 0)
+			(at 93.98 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +5294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 88.9 0)
+			(at 93.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 88.9 0)
+			(at 93.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5312,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 93.98 88.9 0)
+			(at 93.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,6 +5330,94 @@
 			(project "OverVoltageProtection"
 				(path "/3ab01156-4af1-4058-a55c-fa6294991d75/6c85ee69-59dc-40d3-b5ed-3a4bea6d00bc"
 					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MRA4003T3G")
+		(at 146.05 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df1e5cee-95e7-4c6f-b552-7874e401948d")
+		(property "Reference" "D4"
+			(at 148.59 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MRA4003T3G"
+			(at 148.59 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 141.605 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF"
+			(at 146.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+			(at 146.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 146.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c2986aa-7501-44f2-aa7c-b367b8473e3f")
+		)
+		(pin "2"
+			(uuid "51036658-b7a8-49ad-844f-068f0bde4656")
+		)
+		(instances
+			(project ""
+				(path "/3ab01156-4af1-4058-a55c-fa6294991d75/6c85ee69-59dc-40d3-b5ed-3a4bea6d00bc"
+					(reference "D4")
 					(unit 1)
 				)
 			)

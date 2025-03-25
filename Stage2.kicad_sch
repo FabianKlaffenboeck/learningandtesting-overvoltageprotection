@@ -1890,6 +1890,18 @@
 		(uuid "2f273203-2d41-4736-815c-cb10c4d70ca8")
 	)
 	(junction
+		(at 95.25 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d3cdacc-8cd5-4860-a7fe-3812fea13422")
+	)
+	(junction
+		(at 86.36 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55aa8f71-de3f-4a04-bdc0-088d2f503f29")
+	)
+	(junction
 		(at 204.47 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1969,6 +1981,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 111.76) (xy 86.36 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1112ca21-bcab-4ecb-8646-462009790d8b")
+	)
+	(wire
+		(pts
 			(xy 185.42 77.47) (xy 198.12 77.47)
 		)
 		(stroke
@@ -1979,7 +2001,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 110.49) (xy 87.63 110.49)
+			(xy 86.36 111.76) (xy 87.63 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2026,6 +2048,16 @@
 			(type default)
 		)
 		(uuid "53a06b13-fab1-485c-a429-5b07545851bd")
+	)
+	(wire
+		(pts
+			(xy 86.36 110.49) (xy 95.25 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da1bf93-dd63-4154-a883-991769d28209")
 	)
 	(wire
 		(pts
@@ -2099,6 +2131,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 111.76) (xy 95.25 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834de57f-6952-40c2-9a6b-fdb4bfe80366")
+	)
+	(wire
+		(pts
 			(xy 170.18 102.87) (xy 170.18 99.06)
 		)
 		(stroke
@@ -2159,7 +2201,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 110.49) (xy 97.79 110.49)
+			(xy 92.71 111.76) (xy 95.25 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2256,6 +2298,26 @@
 			(type default)
 		)
 		(uuid "f1049f5b-2a70-41c3-95d3-e92fffcdc1b8")
+	)
+	(wire
+		(pts
+			(xy 86.36 110.49) (xy 82.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f402e7f1-3ad3-4847-87dc-796673a0692c")
+	)
+	(wire
+		(pts
+			(xy 95.25 110.49) (xy 97.79 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4adc038-c821-4faf-8b07-8bcf9a0795dd")
 	)
 	(label "OVLO"
 		(at 102.87 101.6 0)
@@ -3499,7 +3561,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 90.17 110.49 0)
+		(at 90.17 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3507,7 +3569,7 @@
 		(dnp no)
 		(uuid "98f0ef50-9d2c-4ea9-9b2b-a4064993fed3")
 		(property "Reference" "NT2"
-			(at 90.17 112.268 0)
+			(at 90.17 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3577,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 90.17 114.808 0)
+			(at 90.17 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +3585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 110.49 0)
+			(at 90.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 110.49 0)
+			(at 90.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +3603,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 90.17 110.49 0)
+			(at 90.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

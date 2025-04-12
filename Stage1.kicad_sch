@@ -3121,6 +3121,16 @@
 		)
 		(uuid "351d3536-be90-4d6e-80c4-d0e04fa2cfeb")
 	)
+	(label "VOUT"
+		(at 203.2 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "386dd9db-8421-4c84-9ec6-7a5e15cac691")
+	)
 	(label "VS"
 		(at 185.42 115.57 0)
 		(effects
@@ -4040,7 +4050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 132.08 67.31 0)
 			(effects
 				(font
@@ -5085,7 +5095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 124.46 100.33 0)
 			(effects
 				(font
@@ -5596,7 +5606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 184.15 120.65 0)
 			(effects
 				(font
@@ -5676,7 +5686,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.55K"
+		(property "Value" "2.55k"
 			(at 127 111.7599 0)
 			(effects
 				(font
@@ -5685,7 +5695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 124.46 110.49 0)
 			(effects
 				(font

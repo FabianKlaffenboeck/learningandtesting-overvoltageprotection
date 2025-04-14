@@ -3443,7 +3443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 90.17 110.49 0)
 			(effects
 				(font
